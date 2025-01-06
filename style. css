@@ -1,0 +1,28 @@
+ #box{
+            display: flex;
+            background-color: rgb(15, 7, 7);
+            flex-direction: row;
+            gap: 20px;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+            padding: 50px;
+        }
+         #box div{
+            background-color: aliceblue;
+            padding: 20px;
+            justify-content: space-evenly;
+            height: 180px;
+            width: 110px;
+
+
+        }
+        img{
+            width: 100px;
+        }
+        .a4,.a11,.a14,.a18{
+            border: 2px solid green;
+
+        }
+        .a1,.a2,.a3,.a5,.a6,.a7,.a8,.a9,.a10,.a12,.a13,.a15,.a16,.a17,.a19{
+            border: 2px solid red;
+        }
